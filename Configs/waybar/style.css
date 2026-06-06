@@ -1,0 +1,39 @@
+* {
+  font-family: "Monaspace Krypton";
+  font-size: 20px;
+}
+
+window#waybar {
+  background-color: rgba(7, 43, 28, 0.7);
+  color: #cae3b4;
+}
+
+#clock, #cpu, #memory, #network,
+#pulseaudio, #battery {
+  font-size: 14px;
+  padding: 6px;
+}
+
+#clock, #cpu, #memory, #network, #pulseaudio, #battery {
+  margin: 5px 4px;
+  border: 1px solid #cae3b4;
+}
+
+#workspaces button {
+  all: initial;
+  margin: 3px 8px;
+  transition-duration: 100ms;
+  color: #cae3b4;
+}
+
+#workspaces button.focused,
+#workspaces button:hover {
+  color: #61723c;
+}
+
+#network:hover,
+#pulseaudio:hover,
+#battery:hover {
+  transition-duration: 100ms;
+  background-color: #61723c;
+}
