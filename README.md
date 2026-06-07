@@ -3,7 +3,7 @@
 ![Desktop Showcase](https://github.com/TannerUptegrove/EndeavorOSRice/blob/main/Images/Desktop%20Showcase.png)
 
 My collection of configuration files and notes for my EndeavorOS system.
-<br><br><br>
+<br><br>
 
 ### Major Packages:
 - Gnome &nbsp;&nbsp;&nbsp; Base desktop environment used to set up the rice.
